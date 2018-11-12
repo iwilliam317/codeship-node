@@ -15,7 +15,7 @@ describe('#GET /', () => {
             .end((error, response) => {           
                 expect(response.status).to.be.equal(200);
                 expect(response.ok).to.be.true;
-                expect(response.text).to.equal('Hello Codeshipz!');
+                expect(response.text).to.equal('Hello Codeship!');
             });
         done();
     });
